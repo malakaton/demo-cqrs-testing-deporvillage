@@ -1,0 +1,15 @@
+language: php
+
+php:
+  - 7.2
+  - 7.3
+  - 7.4
+
+install:
+  - make dependencies
+
+script:
+  - make test
+  - make qa
+  - make license
+  - make changelog

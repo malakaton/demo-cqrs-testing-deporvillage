@@ -1,0 +1,15 @@
+framework:
+  test: true
+
+services:
+  _defaults:
+    autoconfigure: true
+    autowire: true
+
+  App\Tests\Functional\:
+    resource: '../../tests/Functional/*'
+
+  Symfony\Contracts\HttpClient: '@http.client'
+
+  App\Tests\Functional\Contexts\ReturnOrderContext:
+    public: true

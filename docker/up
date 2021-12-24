@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+sudo rm -Rf .data
+docker-compose up --build -d
+sleep 15
+docker-compose run php-fpm php bin/console doctrine:migrations:migrate
+

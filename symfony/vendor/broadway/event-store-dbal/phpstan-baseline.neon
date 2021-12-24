@@ -1,0 +1,12 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call static method fromBytes\\(\\) on Broadway\\\\UuidGenerator\\\\Converter\\\\BinaryUuidConverterInterface\\|null\\.$#"
+			count: 1
+			path: src/DBALEventStore.php
+
+		-
+			message: "#^Cannot call static method fromString\\(\\) on Broadway\\\\UuidGenerator\\\\Converter\\\\BinaryUuidConverterInterface\\|null\\.$#"
+			count: 1
+			path: src/DBALEventStore.php
+

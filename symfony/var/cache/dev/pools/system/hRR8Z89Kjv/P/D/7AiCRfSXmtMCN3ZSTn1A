@@ -1,0 +1,3 @@
+<?php //App%255CReturnOrder%255CDomain%255CStrategy%255CCarrierReturnCodeStrategy
+
+return [PHP_INT_MAX, []];

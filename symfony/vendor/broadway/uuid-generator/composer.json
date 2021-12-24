@@ -1,0 +1,32 @@
+{
+    "name": "broadway/uuid-generator",
+    "description": "UUID generator for broadway/broadway.",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "ramsey/uuid": "^3.0",
+        "phpunit/phpunit": "^8.0",
+        "broadway/coding-standard": "^1.0",
+        "phpstan/phpstan": "@stable"
+    },
+    "suggest": {
+        "ramsey/uuid": "Allows creating UUIDs"
+    },
+    "autoload": {
+        "psr-4": {
+            "Broadway\\UuidGenerator\\": "src/Broadway/UuidGenerator"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Broadway\\UuidGenerator\\": "test/Broadway/UuidGenerator"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}

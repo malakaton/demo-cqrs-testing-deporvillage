@@ -1,0 +1,28 @@
+<?php //App%255CReturnOrder%255CDomain%255CModel%255CReturnOrder%2524orderUuid
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ODM\\MongoDB\\Mapping\\Annotations\\Field'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ODM\\MongoDB\\Mapping\\Annotations\\Field')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'type' => [
+                'string',
+            ],
+            'nullable' => [
+                false,
+            ],
+            'options' => [
+                [],
+            ],
+            'notSaved' => [
+                false,
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];

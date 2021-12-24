@@ -1,0 +1,14 @@
+default:
+    suites:
+        default:
+          paths:
+            -  "%paths.base%/tests/Functional/Features/ReturnOrder.feature"
+          filters:
+          contexts:
+            - App\Tests\Functional\Contexts\ReturnOrderContext
+
+    extensions:
+        FriendsOfBehat\SymfonyExtension:
+            bootstrap: '../../config/behat/bootstrap.php'
+            kernel:
+                environment: test

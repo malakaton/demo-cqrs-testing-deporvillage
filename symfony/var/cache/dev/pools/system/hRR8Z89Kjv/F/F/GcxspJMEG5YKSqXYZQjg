@@ -1,0 +1,3 @@
+<?php //App%255CShared%255CInfrastructure%255CHttp%255CController%255CCommandController%2523handle
+
+return [PHP_INT_MAX, []];
